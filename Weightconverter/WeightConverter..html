@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeightConverter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="WeightConverter.css">
+</head>
+<body>
+        <h1 class="text-center mt-4" style="color:white">WeightConverter</h1>
+    <div class="container">
+        <input type="number" id="userInput" class="mb-3 mt-3 w-100" oninput="convert()">
+
+        <div class="dropdown dropright mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Conversions
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" onclick="pconvert()" id="pconvert">Pounds to _</a>
+              <a class="dropdown-item" href="#" onclick="gconvert()" id="gconvert">Grams to _</a>
+              <a class="dropdown-item" href="#" onclick="kconvert()" id="kconvert">Kilograms to _</a>
+            </div>
+          </div>
+
+          <div class="w-100" id="grams">
+                <p class="ml-4">Grams:</p>
+                <input type="text" READONLY  value=0 id="gresult" class="gramsOutput ml-4">
+            </div>
+
+            <div class="w-100 mt-3" id="kilograms">
+                <p class="ml-4">Kilograms:</p>
+                <input type="text" READONLY  value=0 id="kresult" class="kilosOutput ml-4 ">
+            </div>
+
+            <div class="w-100 mt-3" id="pounds">
+                <p class="ml-4">Pounds:</p>
+                <input type="text" READONLY value=0 id="presult" class="poundsOutput ml-4">
+            </div>
+
+            <div class="w-100 mt-3" id="tons">
+                <p class="ml-4">Tons:</p>
+                <input type="text" READONLY value=0 id="tresult" class="tonsOutput ml-4">
+            </div>
+
+            <div class="w-100 mt-3" id="newTons">
+                <p class="ml-4">Newtons:</p>
+                <input type="text" READONLY value=0 id="ntresult" class="newTonsOutput ml-4">
+            </div>
+
+    </div>
+
+    <script src="WeightConverter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

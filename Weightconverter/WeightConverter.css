@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    padding:0;
+    background:black;
+}
+
+#userInput {
+    border:none;
+    font-size:3em;
+    font-weight: bold;
+}
+
+#grams, #grams p {
+    background:blue;
+    font-size: 1.5em;
+}
+
+.gramsOutput {
+    background:blue;
+    border:none;
+    margin-bottom: 15px;
+}
+
+#kilograms, #kilograms p {
+    background:red;
+    font-size: 1.5em;
+}
+
+.kilosOutput {
+    background:red;
+    border:none;
+    margin-bottom: 15px;
+}
+
+#pounds, #pounds p {
+    background:green;
+    font-size: 1.5em;
+}
+
+.poundsOutput {
+    background:green;
+    border:none;
+    margin-bottom: 15px;
+}
+
+#tons, #tons p {
+    background:yellow;
+    font-size: 1.5em;
+}
+
+.tonsOutput {
+    background:yellow;
+    border:none;
+    margin-bottom: 15px;
+}
+
+#newTons, #newTons p {
+    background:purple;
+    font-size: 1.5em;
+}
+
+.newTonsOutput {
+    background:purple;
+    border:none;
+    margin-bottom: 15px;
+}
+
+#kilograms, #kilograms p {
+    background:red;
+    font-size: 1.5em;
+}
+
+.kiloOutput {
+    background:red;
+    border:none;
+    margin-bottom: 15px;
+}
